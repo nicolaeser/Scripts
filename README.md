@@ -1,5 +1,7 @@
 # scripts
-Install scripts by Nico L. 
+Scripts by Nico L.
+
+
 
 # Server Manager
 `wget https://github.com/gitipexa/scripts/raw/main/servermanager.sh && chmod +x servermanager.sh && ./servermanager.sh`
