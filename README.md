@@ -1,6 +1,7 @@
 # scripts
 Scripts by Nico L.
 
+[Discord](https://discord.gg/7k4vFv2WKN)
 
 
 # Server Manager
