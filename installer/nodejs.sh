@@ -1,4 +1,6 @@
 #!/bin/bash
+sleep 1
+clear
 echo "############################################################################"
 echo "#                            NodeJS Installer                              #"
 echo "#                              by Nico L.                                  #"

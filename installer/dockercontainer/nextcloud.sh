@@ -1,4 +1,6 @@
 #!/bin/bash
+sleep 1
+clear
 echo "############################################################################"
 echo "#                        Nextcloud Docker Installer                        #"
 echo "#                              by Nico L.                                  #"
