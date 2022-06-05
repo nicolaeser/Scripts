@@ -1,7 +1,7 @@
 # scripts
 Scripts by Nico L.
 
-<img src="https://cdn.discordapp.com/attachments/894184480691060736/898535802018086972/Discord_Illustration.png" width="1920" height="1080">
+<img src="https://cdn.discordapp.com/attachments/894184480691060736/898535802018086972/Discord_Illustration.png" width="720" height="480">
 [Discord](https://discord.gg/7k4vFv2WKN)
 
 
