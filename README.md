@@ -12,9 +12,15 @@ https://discord.gg/7k4vFv2WKN
 
 ## Docker
 `wget https://github.com/gitipexa/scripts/raw/main/installer/docker.sh && chmod +x docker.sh && ./docker.sh`
+
 ## NodeJS
 `wget https://github.com/gitipexa/scripts/raw/main/installer/nodejs.sh && chmod +x nodejs.sh && ./nodejs.sh`
 
+## Ngnix
+`wget https://github.com/gitipexa/scripts/raw/main/installer/nginx.sh && chmod +x ngnix.sh && ./ngnix.sh`
+
+## Apache
+`wget https://github.com/gitipexa/scripts/raw/main/installer/apache.sh && chmod +x apache.sh && ./ngnix.sh`
 
 # Docker Container
 ## Grafana
@@ -28,3 +34,9 @@ https://discord.gg/7k4vFv2WKN
 
 ## Wordpress
 `wget https://github.com/gitipexa/scripts/blob/main/installer/dockercontainer/wordpress.sh && chmod +x wordpress.sh && ./wordpress.sh`
+
+## Ngnix
+`wget https://github.com/gitipexa/scripts/raw/main/installer/dockercontainer/nginx.sh && chmod +x ngnix.sh && ./ngnix.sh`
+
+## Apache
+`wget https://github.com/gitipexa/scripts/raw/main/installer/dockercontainer/apache.sh && chmod +x apache.sh && ./apache.sh`
