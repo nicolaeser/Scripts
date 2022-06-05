@@ -22,7 +22,18 @@ https://discord.gg/7k4vFv2WKN
 ## Apache
 `wget https://github.com/gitipexa/scripts/raw/main/installer/apache.sh && chmod +x apache.sh && ./ngnix.sh`
 
+## MariaDB
+`wget https://github.com/gitipexa/scripts/raw/main/installer/mariadb.sh && chmod +x mariadb.sh && ./mariadb.sh`
+
+
 # Docker Container
+
+## Portainer
+`wget https://github.com/gitipexa/scripts/raw/main/installer/dockercontainer/portainer.sh && chmod +x portainer.sh && ./portainer.sh`
+
+## Yacht
+`wget https://github.com/gitipexa/scripts/raw/main/installer/dockercontainer/yacht.sh && chmod +x yacht.sh && ./yacht.sh`
+
 ## Grafana
 `wget https://github.com/gitipexa/scripts/raw/main/installer/dockercontainer/grafana.sh && chmod +x grafana.sh && ./grafana.sh`
 
@@ -40,3 +51,9 @@ https://discord.gg/7k4vFv2WKN
 
 ## Apache
 `wget https://github.com/gitipexa/scripts/raw/main/installer/dockercontainer/apache.sh && chmod +x apache.sh && ./apache.sh`
+
+## MariaDB
+`wget https://github.com/gitipexa/scripts/raw/main/installer/dockercontainer/mariadb.sh && chmod +x mariadb.sh && ./mariadb.sh`
+
+## MySQL
+`wget https://github.com/gitipexa/scripts/raw/main/installer/dockercontainer/mysql.sh && chmod +x mysql.sh && ./mysql.sh`
