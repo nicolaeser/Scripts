@@ -1,7 +1,7 @@
 # scripts
 Scripts by Nico L.
 
-![Discord Banner 3](https://discordapp.com/api/guilds/874728079396843560/widget.png?style=banner3)
+![Discord Banner 3](https://discordapp.com/api/guilds/874728079396843560/widget.png?style=banner1)
 [Discord](https://discord.gg/7k4vFv2WKN)
 
 
