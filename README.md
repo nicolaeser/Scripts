@@ -5,6 +5,9 @@ Install scripts by Nico L.
 
 ## Docker
 `wget https://github.com/gitipexa/scripts/raw/main/installer/docker.sh && chmod +x docker.sh && ./docker.sh`
+## NodeJS
+`wget https://github.com/gitipexa/scripts/raw/main/installer/nodejs.sh && chmod +x nodejs.sh && ./nodejs.sh`
+
 
 # Docker Container
 ## Grafana
