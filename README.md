@@ -32,6 +32,15 @@ https://discord.gg/7k4vFv2WKN
 ### MariaDB
 `wget https://github.com/gitipexa/scripts/raw/main/installer/mariadb.sh && chmod +x mariadb.sh && ./mariadb.sh`
 
+### PHP
+`wget https://github.com/gitipexa/scripts/raw/main/installer/php.sh && chmod +x php.sh && ./php.sh`
+
+### Python
+`wget https://github.com/gitipexa/scripts/raw/main/installer/python.sh && chmod +x python.sh && ./python.sh`
+
+### Git
+`wget https://github.com/gitipexa/scripts/raw/main/installer/git.sh && chmod +x git.sh && ./git.sh`
+
 
 ## Docker Container
 
@@ -64,3 +73,8 @@ https://discord.gg/7k4vFv2WKN
 
 ### MySQL
 `wget https://github.com/gitipexa/scripts/raw/main/installer/dockercontainer/mysql.sh && chmod +x mysql.sh && ./mysql.sh`
+
+### MongoDB
+`wget https://github.com/gitipexa/scripts/raw/main/installer/dockercontainer/mongodb.sh && chmod +x mongodb.sh && ./mongodb.sh`
+
+
