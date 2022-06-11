@@ -330,6 +330,7 @@ echo "#     8 | Portainer                                                       
 echo "#     9 | Uptimekuma                                                       #"
 echo "#    10 | Wordpress                                                        #"
 echo "#    11 | Yacht                                                            #" 
+echo "#    12 | Sinusbot                                                         #" 
 echo "#                                                                          #"    
 echo "############################################################################"
 read -p "Please enter a Number:" choosencontainer
@@ -641,7 +642,34 @@ chmod +x yacht.sh
 wait -n 
 ./yacht.sh
 fi
-
+# Sinusbot Container
+if [ "$choosencontainer" = "12" ]; then
+clear
+echo "############################################################################"
+echo "#                         Sinusbot Container                               #"
+echo "############################################################################"
+sleep 1
+echo "############################################################################"
+echo "#                    Upgrading Server (apt upgrade -y)                     #"
+echo "############################################################################"
+apt upgrade -y
+wait -n
+echo "############################################################################"
+echo "#                     Upgading Server (apt update -y)                      #"
+echo "############################################################################"
+apt updating -y
+wait -n
+echo "###############################################################################################"
+echo "# wget https://github.com/gitipexa/scripts/raw/main/installer/dockercontainer/sinusbot.sh     #"
+echo "# chmod +x sinusbot.sh                                                                        #"
+echo "# ./sinusbot.sh                                                                               #"
+echo "###############################################################################################"
+wget https://github.com/gitipexa/scripts/raw/main/installer/dockercontainer/sinusbot.sh
+wait -n
+chmod +x sinusbot.sh
+wait -n 
+./sinusbot.sh
+fi
 fi
 
 fi
