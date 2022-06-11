@@ -77,4 +77,7 @@ https://discord.gg/7k4vFv2WKN
 ### MongoDB
 `wget https://github.com/gitipexa/scripts/raw/main/installer/dockercontainer/mongodb.sh && chmod +x mongodb.sh && ./mongodb.sh`
 
+### Sinusbot
+`wget https://github.com/gitipexa/scripts/raw/main/installer/dockercontainer/sinusbot.sh && chmod +x sinusbot.sh && ./sinusbot.sh`
+
 
