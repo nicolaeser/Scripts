@@ -41,6 +41,8 @@ https://discord.gg/7k4vFv2WKN
 ### Git
 `wget https://github.com/gitipexa/scripts/raw/main/installer/git.sh && chmod +x git.sh && ./git.sh`
 
+### Keyhelp
+`wget https://github.com/gitipexa/scripts/raw/main/installer/keyhelp.sh && chmod +x keyhelp.sh && ./keyhelp.sh`
 
 ## Docker Container
 
