@@ -5,7 +5,7 @@ echo "##########################################################################
 echo "#                         Nginx Docker Installer                           #"
 echo "#                              by Nico L.                                  #"
 echo "#                   https://github.com/gitipexa/scripts                    #"
-echo "#                          Last Update: 05.06.2022                         #"
+echo "#                          Last Update: 11.06.2022                         #"
 echo "############################################################################"
 sleep 3
 clear 
