@@ -1,4 +1,4 @@
-# scripts
+# Scripts
 Scripts by Nico L.
 
 
