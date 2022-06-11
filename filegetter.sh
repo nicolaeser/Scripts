@@ -101,7 +101,8 @@ echo "#     4 | NodeJS                                                          
 echo "#     5 | Git                                                              #"
 echo "#     6 | MariaDB                                                          #"
 echo "#     7 | PHP                                                              #"
-echo "#     8 | Python                                                           #"     
+echo "#     8 | Python                                                           #" 
+echo "#     9 | Keyhelp                                                          #"    
 echo "#                                                                          #"    
 echo "############################################################################"
 read -p "Please enter a Number:" choosendirect
@@ -134,9 +135,36 @@ chmod +x docker.sh
 wait -n 
 ./docker.sh
 fi
-
-# Nginx Direct
+# Apache Direct
 if [ "$choosendirect" = "2" ]; then
+clear
+echo "############################################################################"
+echo "#                            Apache Direct                                 #"
+echo "############################################################################"
+sleep 1
+echo "############################################################################"
+echo "#                    Upgrading Server (apt upgrade -y)                     #"
+echo "############################################################################"
+apt upgrade -y
+wait -n
+echo "############################################################################"
+echo "#                     Upgading Server (apt update -y)                      #"
+echo "############################################################################"
+apt updating -y
+wait -n
+echo "############################################################################"
+echo "# wget https://github.com/gitipexa/scripts/raw/main/installer/apache.sh    #"
+echo "# chmod +x apache.sh                                                       #"
+echo "# ./apache.sh                                                              #"
+echo "############################################################################"
+wget https://github.com/gitipexa/scripts/raw/main/installer/apache.sh
+wait -n
+chmod +x apache.sh
+wait -n 
+./apache.sh
+fi
+# Nginx Direct
+if [ "$choosendirect" = "3" ]; then
 clear
 echo "############################################################################"
 echo "#                            Nginx Direct                                  #"
@@ -165,7 +193,7 @@ wait -n
 fi
 
 # NodeJS Direct
-if [ "$choosendirect" = "3" ]; then
+if [ "$choosendirect" = "4" ]; then
 clear
 echo "############################################################################"
 echo "#                            NodeJS Direct                                 #"
@@ -194,7 +222,7 @@ wait -n
 fi
 
 # Git Direct
-if [ "$choosendirect" = "4" ]; then
+if [ "$choosendirect" = "5" ]; then
 clear
 echo "############################################################################"
 echo "#                             Git Direct                                   #"
@@ -223,7 +251,7 @@ wait -n
 fi
 
 # MariaDB Direct
-if [ "$choosendirect" = "5" ]; then
+if [ "$choosendirect" = "6" ]; then
 clear
 echo "############################################################################"
 echo "#                           MariaDB Direct                                 #"
@@ -252,7 +280,7 @@ wait -n
 fi
 
 # PHP Direct
-if [ "$choosendirect" = "6" ]; then
+if [ "$choosendirect" = "7" ]; then
 clear
 echo "############################################################################"
 echo "#                             PHP Direct                                   #"
@@ -281,7 +309,7 @@ wait -n
 fi
 
 # Python Direct
-if [ "$choosendirect" = "7" ]; then
+if [ "$choosendirect" = "8" ]; then
 clear
 echo "############################################################################"
 echo "#                            Python Direct                                 #"
@@ -307,6 +335,34 @@ wait -n
 chmod +x python.sh
 wait -n 
 ./python.sh
+fi
+# Keyhelp Direct
+if [ "$choosendirect" = "9" ]; then
+clear
+echo "############################################################################"
+echo "#                           Keyhelp Direct                                 #"
+echo "############################################################################"
+sleep 1
+echo "############################################################################"
+echo "#                    Upgrading Server (apt upgrade -y)                     #"
+echo "############################################################################"
+apt upgrade -y
+wait -n
+echo "############################################################################"
+echo "#                     Upgading Server (apt update -y)                      #"
+echo "############################################################################"
+apt updating -y
+wait -n
+echo "############################################################################"
+echo "# wget https://github.com/gitipexa/scripts/raw/main/installer/keyhelp.sh   #"
+echo "# chmod +x keyhelp.sh                                                      #"
+echo "# ./keyhelp.sh                                                             #"
+echo "############################################################################"
+wget https://github.com/gitipexa/scripts/raw/main/installer/keyhelp.sh
+wait -n
+chmod +x keyhelp.sh
+wait -n 
+./keyhelp.sh
 fi
 
 fi
