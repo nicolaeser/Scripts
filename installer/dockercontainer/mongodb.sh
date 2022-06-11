@@ -2,7 +2,7 @@
 sleep 1
 clear
 echo "############################################################################"
-echo "#                           MariaDB Installer                              #"
+echo "#                       MongoDB Docker Installer                           #"
 echo "#                              by Nico L.                                  #"
 echo "#                   https://github.com/gitipexa/scripts                    #"
 echo "#                          Last Update: 05.06.2022                         #"
@@ -31,9 +31,8 @@ echo "##########################################################################
 read continuepress
 sleep 1
 clear
-
 echo "############################################################################"
-echo "#                            Installing MariaDB                            #"
+echo "#                        Installing MongoDB Docker                         #"
 echo "############################################################################"
 sleep 2
 echo "############################################################################"
@@ -47,22 +46,25 @@ echo "##########################################################################
 apt upgrade -y
 wait -n 
 echo "############################################################################"
-echo "#         MariaDB Server Installation (apt install mariadb-server -y)      #"
+echo "#                           Enter the Name & Port                          #"
 echo "############################################################################"
-apt install mariadb-server -y
+read -p "Please enter MongoDB Container Name (mongodb is recommended): " mongodbname
+read -p "Please enter MongoDB Port: " mongodbport
+read -p "Please enter MongoDB Root Username: " mongodbrootusername
+read -p "Please enter MongoDB Root Password: " mongodbrootpassword
+echo "############################################################################"
+echo "#              Downloading and Installing MongoDB Container                #"
+echo "############################################################################"
+docker run --name $mongodbname -e MONGO_INITDB_ROOT_USERNAME=$mongodbrootusername -e MONGO_INITDB_ROOT_PASSWORD=$mongodbrootpassword -d -p $mongodbport:$mongodbport mongo
 wait -n 
+clear
 echo "############################################################################"
-echo "#                    Checking MariaDB Version (mysql -V)                   #"
+echo "#                       Installed MongoDB Docker                           #"
+echo "#                                                                          #"
+echo "#      MongoDB Name  | $mongodbname                                        #"
+echo "#      MongoDB Port  | $mongodbport                                        #"
+echo "#      MongoDB Root Username | $mongodbrootusername                        #"
+echo "#      MongoDB Root Password | $mongodbrootpassword                        #"
+echo "#                                                                          #"
 echo "############################################################################"
-mysql -V
-wait -n 
-echo "############################################################################"
-echo "#                Securing MariaDB (mysql_secure_installation)              #"
-echo "############################################################################"
-mysql_secure_installation
-wait -n
-echo "############################################################################"
-echo "#                          Installed MariaDB                               #"
-echo "############################################################################"
-
 
