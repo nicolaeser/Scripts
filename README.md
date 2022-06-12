@@ -44,6 +44,12 @@ https://discord.gg/7k4vFv2WKN
 ### Keyhelp
 `wget https://github.com/gitipexa/scripts/raw/main/installer/keyhelp.sh && chmod +x keyhelp.sh && ./keyhelp.sh`
 
+### Adguard Home
+`wget https://github.com/gitipexa/scripts/raw/main/installer/adguardhome.sh && chmod +x adguardhome.sh && ./adguardhome.sh`
+
+### Pi Hole
+`wget https://github.com/gitipexa/scripts/raw/main/installer/pihole.sh && chmod +x pihole.sh && ./pihole.sh`
+
 ## Docker Container
 
 ### Portainer

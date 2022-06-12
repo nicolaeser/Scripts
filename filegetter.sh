@@ -4,7 +4,7 @@ clear
 echo "############################################################################"
 echo "#                              File Getter                                 #"
 echo "#                              by Nico L.                                  #"
-echo "#                          Last Update: 11.06.2022                         #"
+echo "#                          Last Update: 12.06.2022                         #"
 echo "############################################################################"
 sleep 3
 clear 
@@ -102,7 +102,9 @@ echo "#     5 | Git                                                             
 echo "#     6 | MariaDB                                                          #"
 echo "#     7 | PHP                                                              #"
 echo "#     8 | Python                                                           #" 
-echo "#     9 | Keyhelp                                                          #"    
+echo "#     9 | Keyhelp                                                          #"
+echo "#    10 | Adguard Home                                                     #"
+echo "#    11 | Pi Hole                                                          #"    
 echo "#                                                                          #"    
 echo "############################################################################"
 read -p "Please enter a Number:" choosendirect
@@ -364,6 +366,64 @@ chmod +x keyhelp.sh
 wait -n 
 ./keyhelp.sh
 fi
+# Adguard Home Direct
+if [ "$choosendirect" = "10" ]; then
+clear
+echo "############################################################################"
+echo "#                         Adguard Home Direct                              #"
+echo "############################################################################"
+sleep 1
+echo "############################################################################"
+echo "#                    Upgrading Server (apt upgrade -y)                     #"
+echo "############################################################################"
+apt upgrade -y
+wait -n
+echo "############################################################################"
+echo "#                     Upgading Server (apt update -y)                      #"
+echo "############################################################################"
+apt updating -y
+wait -n
+echo "##############################################################################"
+echo "# wget https://github.com/gitipexa/scripts/raw/main/installer/adguardhome.sh #"
+echo "# chmod +x adguardhome.sh                                                    #"
+echo "# ./adguardhome.sh                                                           #"
+echo "##############################################################################"
+wget https://github.com/gitipexa/scripts/raw/main/installer/adguardhome.sh
+wait -n
+chmod +x adguardhome.sh
+wait -n 
+./adguardhome.sh
+fi
+
+# Pi Hole Direct
+if [ "$choosendirect" = "11" ]; then
+clear
+echo "############################################################################"
+echo "#                           Pi Hole Direct                                 #"
+echo "############################################################################"
+sleep 1
+echo "############################################################################"
+echo "#                    Upgrading Server (apt upgrade -y)                     #"
+echo "############################################################################"
+apt upgrade -y
+wait -n
+echo "############################################################################"
+echo "#                     Upgading Server (apt update -y)                      #"
+echo "############################################################################"
+apt updating -y
+wait -n
+echo "############################################################################"
+echo "# wget https://github.com/gitipexa/scripts/raw/main/installer/pihole.sh    #"
+echo "# chmod +x pihole.sh                                                       #"
+echo "# ./pihole.sh                                                              #"
+echo "############################################################################"
+wget https://github.com/gitipexa/scripts/raw/main/installer/pihole.sh
+wait -n
+chmod +x pihole.sh
+wait -n 
+./pihole.sh
+fi
+
 
 fi
 
