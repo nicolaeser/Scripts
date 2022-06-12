@@ -27,7 +27,7 @@ https://discord.gg/7k4vFv2WKN
 `wget https://github.com/gitipexa/scripts/raw/main/installer/nginx.sh && chmod +x ngnix.sh && ./ngnix.sh`
 
 ### Apache
-`wget https://github.com/gitipexa/scripts/raw/main/installer/apache.sh && chmod +x apache.sh && ./ngnix.sh`
+`wget https://github.com/gitipexa/scripts/raw/main/installer/apache.sh && chmod +x apache.sh && ./apache.sh`
 
 ### MariaDB
 `wget https://github.com/gitipexa/scripts/raw/main/installer/mariadb.sh && chmod +x mariadb.sh && ./mariadb.sh`
