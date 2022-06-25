@@ -96,6 +96,6 @@ https://github.com/gitipexa/scripts/wiki
 #### Sinusbot
 `wget https://github.com/gitipexa/scripts/raw/main/installer/dockercontainer/sinusbot.sh && chmod +x sinusbot.sh && ./sinusbot.sh`
 
-## Dashy
+#### Dashy
 `wget https://github.com/gitipexa/scripts/raw/main/installer/dockercontainer/dashy.sh && chmod +x dashy.sh && ./dashy.sh`
 
