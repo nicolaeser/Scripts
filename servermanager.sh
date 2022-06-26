@@ -4,7 +4,7 @@ clear
 echo "############################################################################"
 echo "#                            Server Manager                                #"
 echo "#                              by Nico L.                                  #"
-echo "#                   https://github.com/nlagit/scripts                      #"
+echo "#                   https://github.com/nilasystem/scripts                  #"
 echo "#                          Last Update: 26.06.2022                         #"
 echo "############################################################################"
 sleep 3
@@ -34,7 +34,7 @@ clear
 echo "############################################################################"
 echo "#                            Server Manager                                #"
 echo "#                              by Nico L.                                  #"
-echo "#                   https://github.com/nlagit/scripts                      #"
+echo "#                   https://github.com/nilasystem/scripts                  #"
 echo "############################################################################"
 echo "#                                                                          #"
 echo "#     1 | Update Server                                                    #"

@@ -4,7 +4,7 @@ clear
 echo "############################################################################"
 echo "#                           Pi Hole Installer                              #"
 echo "#                              by Nico L.                                  #"
-echo "#                   https://github.com/nlagit/scripts                      #"
+echo "#                   https://github.com/nilasystem/scripts                  #"
 echo "#                          Last Update: 26.06.2022                         #"
 echo "############################################################################"
 sleep 3
