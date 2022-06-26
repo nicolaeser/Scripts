@@ -4,7 +4,8 @@ clear
 echo "############################################################################"
 echo "#                              File Getter                                 #"
 echo "#                              by Nico L.                                  #"
-echo "#                          Last Update: 12.06.2022                         #"
+echo "#                   https://github.com/nlagit/scripts                      #"
+echo "#                          Last Update: 26.06.2022                         #"
 echo "############################################################################"
 sleep 3
 clear 
@@ -33,7 +34,7 @@ clear
 echo "############################################################################"
 echo "#                             File Getter                                  #"
 echo "#                              by Nico L.                                  #"
-echo "#                   https://github.com/gitipexa/scripts                    #"
+echo "#                   https://github.com/nlagit/scripts                      #"
 echo "############################################################################"
 echo "#                                                                          #"
 echo "#     1 | Server Manager                                                   #"
@@ -60,11 +61,11 @@ echo "##########################################################################
 apt updating -y
 wait -n
 echo "############################################################################"
-echo "# wget https://github.com/gitipexa/scripts/raw/main/servermanager.sh       #"
+echo "# wget https://github.com/nlagit/scripts/raw/main/servermanager.sh         #"
 echo "# chmod +x servermanager.sh                                                #"
 echo "# ./servermanager.sh                                                       #"
 echo "############################################################################"
-wget https://github.com/gitipexa/scripts/raw/main/servermanager.sh
+wget https://github.com/nlagit/scripts/raw/main/servermanager.sh
 wait -n
 chmod +x servermanager.sh
 wait -n 
@@ -77,7 +78,7 @@ clear
 echo "############################################################################"
 echo "#                        Direct or Docker Container?                       #"
 echo "#                              by Nico L.                                  #"
-echo "#                   https://github.com/gitipexa/scripts                    #"
+echo "#                   https://github.com/nlagit/scripts                      #"
 echo "############################################################################"
 echo "#                                                                          #"
 echo "#     1 | Direct                                                           #"
@@ -91,7 +92,7 @@ clear
 echo "############################################################################"
 echo "#                              Direct                                      #"
 echo "#                              by Nico L.                                  #"
-echo "#                   https://github.com/gitipexa/scripts                    #"
+echo "#                   https://github.com/nlagit/scripts                      #"
 echo "############################################################################"
 echo "#                                                                          #"
 echo "#     1 | Docker                                                           #"
@@ -127,11 +128,11 @@ echo "##########################################################################
 apt updating -y
 wait -n
 echo "############################################################################"
-echo "# wget https://github.com/gitipexa/scripts/raw/main/installer/docker.sh    #"
+echo "# wget https://github.com/nlagit/scripts/raw/main/installer/docker.sh      #"
 echo "# chmod +x docker.sh                                                       #"
 echo "# ./docker.sh                                                              #"
 echo "############################################################################"
-wget https://github.com/gitipexa/scripts/raw/main/installer/docker.sh
+wget https://github.com/nlagit/scripts/raw/main/installer/docker.sh
 wait -n
 chmod +x docker.sh
 wait -n 
@@ -155,11 +156,11 @@ echo "##########################################################################
 apt updating -y
 wait -n
 echo "############################################################################"
-echo "# wget https://github.com/gitipexa/scripts/raw/main/installer/apache.sh    #"
+echo "# wget https://github.com/nlagit/scripts/raw/main/installer/apache.sh      #"
 echo "# chmod +x apache.sh                                                       #"
 echo "# ./apache.sh                                                              #"
 echo "############################################################################"
-wget https://github.com/gitipexa/scripts/raw/main/installer/apache.sh
+wget https://github.com/nlagit/scripts/raw/main/installer/apache.sh
 wait -n
 chmod +x apache.sh
 wait -n 
@@ -183,11 +184,11 @@ echo "##########################################################################
 apt updating -y
 wait -n
 echo "############################################################################"
-echo "# wget https://github.com/gitipexa/scripts/raw/main/installer/nginx.sh     #"
-echo "# chmod +x nginx.sh                                                       #"
-echo "# ./nginx.sh                                                              #"
+echo "# wget https://github.com/nlagit/scripts/raw/main/installer/nginx.sh       #"
+echo "# chmod +x nginx.sh                                                        #"
+echo "# ./nginx.sh                                                               #"
 echo "############################################################################"
-wget https://github.com/gitipexa/scripts/raw/main/installer/nginx.sh
+wget https://github.com/nlagit/scripts/raw/main/installer/nginx.sh
 wait -n
 chmod +x nginx.sh
 wait -n 
@@ -212,11 +213,11 @@ echo "##########################################################################
 apt updating -y
 wait -n
 echo "############################################################################"
-echo "# wget https://github.com/gitipexa/scripts/raw/main/installer/nodejs.sh    #"
+echo "# wget https://github.com/nlagit/scripts/raw/main/installer/nodejs.sh      #"
 echo "# chmod +x nodejs.sh                                                       #"
 echo "# ./nodejs.sh                                                              #"
 echo "############################################################################"
-wget https://github.com/gitipexa/scripts/raw/main/installer/nodejs.sh
+wget https://github.com/nlagit/scripts/raw/main/installer/nodejs.sh
 wait -n
 chmod +x nodejs.sh
 wait -n 
@@ -241,11 +242,11 @@ echo "##########################################################################
 apt updating -y
 wait -n
 echo "############################################################################"
-echo "# wget https://github.com/gitipexa/scripts/raw/main/installer/git.sh    #"
-echo "# chmod +x git.sh                                                       #"
-echo "# ./git.sh                                                              #"
+echo "# wget https://github.com/nlagit/scripts/raw/main/installer/git.sh         #"
+echo "# chmod +x git.sh                                                          #"
+echo "# ./git.sh                                                                 #"
 echo "############################################################################"
-wget https://github.com/gitipexa/scripts/raw/main/installer/git.sh
+wget https://github.com/nlagit/scripts/raw/main/installer/git.sh
 wait -n
 chmod +x git.sh
 wait -n 
@@ -270,11 +271,11 @@ echo "##########################################################################
 apt updating -y
 wait -n
 echo "############################################################################"
-echo "# wget https://github.com/gitipexa/scripts/raw/main/installer/mariadb.sh   #"
+echo "# wget https://github.com/nlagit/scripts/raw/main/installer/mariadb.sh     #"
 echo "# chmod +x mariadb.sh                                                      #"
 echo "# ./mariadb.sh                                                             #"
 echo "############################################################################"
-wget https://github.com/gitipexa/scripts/raw/main/installer/mariadb.sh
+wget https://github.com/nlagit/scripts/raw/main/installer/mariadb.sh
 wait -n
 chmod +x mariadb.sh
 wait -n 
@@ -299,11 +300,11 @@ echo "##########################################################################
 apt updating -y
 wait -n
 echo "############################################################################"
-echo "# wget https://github.com/gitipexa/scripts/raw/main/installer/php.sh    #"
+echo "# wget https://github.com/nlagit/scripts/raw/main/installer/php.sh         #"
 echo "# chmod +x docker.sh                                                       #"
 echo "# ./docker.sh                                                              #"
 echo "############################################################################"
-wget https://github.com/gitipexa/scripts/raw/main/installer/php.sh
+wget https://github.com/nlagit/scripts/raw/main/installer/php.sh
 wait -n
 chmod +x php.sh
 wait -n 
@@ -328,11 +329,11 @@ echo "##########################################################################
 apt updating -y
 wait -n
 echo "############################################################################"
-echo "# wget https://github.com/gitipexa/scripts/raw/main/installer/python.sh    #"
+echo "# wget https://github.com/nlagit/scripts/raw/main/installer/python.sh      #"
 echo "# chmod +x python.sh                                                       #"
 echo "# ./docker.sh                                                              #"
 echo "############################################################################"
-wget https://github.com/gitipexa/scripts/raw/main/installer/docker.sh
+wget https://github.com/nlagit/scripts/raw/main/installer/docker.sh
 wait -n
 chmod +x python.sh
 wait -n 
@@ -356,11 +357,11 @@ echo "##########################################################################
 apt updating -y
 wait -n
 echo "############################################################################"
-echo "# wget https://github.com/gitipexa/scripts/raw/main/installer/keyhelp.sh   #"
+echo "# wget https://github.com/nlagit/scripts/raw/main/installer/keyhelp.sh     #"
 echo "# chmod +x keyhelp.sh                                                      #"
 echo "# ./keyhelp.sh                                                             #"
 echo "############################################################################"
-wget https://github.com/gitipexa/scripts/raw/main/installer/keyhelp.sh
+wget https://github.com/nlagit/scripts/raw/main/installer/keyhelp.sh
 wait -n
 chmod +x keyhelp.sh
 wait -n 
@@ -384,11 +385,11 @@ echo "##########################################################################
 apt updating -y
 wait -n
 echo "##############################################################################"
-echo "# wget https://github.com/gitipexa/scripts/raw/main/installer/adguardhome.sh #"
+echo "# wget https://github.com/nlagit/scripts/raw/main/installer/adguardhome.sh   #"
 echo "# chmod +x adguardhome.sh                                                    #"
 echo "# ./adguardhome.sh                                                           #"
 echo "##############################################################################"
-wget https://github.com/gitipexa/scripts/raw/main/installer/adguardhome.sh
+wget https://github.com/nlagit/scripts/raw/main/installer/adguardhome.sh
 wait -n
 chmod +x adguardhome.sh
 wait -n 
@@ -413,11 +414,11 @@ echo "##########################################################################
 apt updating -y
 wait -n
 echo "############################################################################"
-echo "# wget https://github.com/gitipexa/scripts/raw/main/installer/pihole.sh    #"
+echo "# wget https://github.com/nlagit/scripts/raw/main/installer/pihole.sh      #"
 echo "# chmod +x pihole.sh                                                       #"
 echo "# ./pihole.sh                                                              #"
 echo "############################################################################"
-wget https://github.com/gitipexa/scripts/raw/main/installer/pihole.sh
+wget https://github.com/nlagit/scripts/raw/main/installer/pihole.sh
 wait -n
 chmod +x pihole.sh
 wait -n 
@@ -432,7 +433,7 @@ clear
 echo "############################################################################"
 echo "#                          Docker Container                                #"
 echo "#                              by Nico L.                                  #"
-echo "#                   https://github.com/gitipexa/scripts                    #"
+echo "#                   https://github.com/nlagit/scripts                      #"
 echo "############################################################################"
 echo "#                                                                          #"
 echo "#     1 | Apache                                                           #"
@@ -469,11 +470,11 @@ echo "##########################################################################
 apt updating -y
 wait -n
 echo "###############################################################################################"
-echo "# wget https://github.com/gitipexa/scripts/raw/main/installer/dockercontainer/apache.sh       #"
+echo "# wget https://github.com/nlagit/scripts/raw/main/installer/dockercontainer/apache.sh         #"
 echo "# chmod +x apache.sh                                                                          #"
 echo "# ./apache.sh                                                                                 #"
 echo "###############################################################################################"
-wget https://github.com/gitipexa/scripts/raw/main/installer/dockercontainer/apache.sh
+wget https://github.com/nlagit/scripts/raw/main/installer/dockercontainer/apache.sh
 wait -n
 chmod +x apache.sh
 wait -n 
@@ -497,11 +498,11 @@ echo "##########################################################################
 apt updating -y
 wait -n
 echo "###############################################################################################"
-echo "# wget https://github.com/gitipexa/scripts/raw/main/installer/dockercontainer/grafana.sh      #"
+echo "# wget https://github.com/nlagit/scripts/raw/main/installer/dockercontainer/grafana.sh        #"
 echo "# chmod +x grafana.sh                                                                         #"
 echo "# ./grafana.sh                                                                                #"
 echo "###############################################################################################"
-wget https://github.com/gitipexa/scripts/raw/main/installer/dockercontainer/grafana.sh
+wget https://github.com/nlagit/scripts/raw/main/installer/dockercontainer/grafana.sh
 wait -n
 chmod +x grafana.sh
 wait -n 
@@ -525,11 +526,11 @@ echo "##########################################################################
 apt updating -y
 wait -n
 echo "###############################################################################################"
-echo "# wget https://github.com/gitipexa/scripts/raw/main/installer/dockercontainer/mariadb.sh      #"
+echo "# wget https://github.com/nlagit/scripts/raw/main/installer/dockercontainer/mariadb.sh        #"
 echo "# chmod +x mariadb.sh                                                                         #"
 echo "# ./mariadb.sh                                                                                #"
 echo "###############################################################################################"
-wget https://github.com/gitipexa/scripts/raw/main/installer/dockercontainer/mariadb.sh
+wget https://github.com/nlagit/scripts/raw/main/installer/dockercontainer/mariadb.sh
 wait -n
 chmod +x mariadb.sh
 wait -n 
@@ -553,11 +554,11 @@ echo "##########################################################################
 apt updating -y
 wait -n
 echo "###############################################################################################"
-echo "# wget https://github.com/gitipexa/scripts/raw/main/installer/dockercontainer/mongodb.sh      #"
+echo "# wget https://github.com/nlagit/scripts/raw/main/installer/dockercontainer/mongodb.sh        #"
 echo "# chmod +x mongodb.sh                                                                         #"
 echo "# ./mongodb.sh                                                                                #"
 echo "###############################################################################################"
-wget https://github.com/gitipexa/scripts/raw/main/installer/dockercontainer/mongodb.sh
+wget https://github.com/nlagit/scripts/raw/main/installer/dockercontainer/mongodb.sh
 wait -n
 chmod +x mongodb.sh
 wait -n 
@@ -581,11 +582,11 @@ echo "##########################################################################
 apt updating -y
 wait -n
 echo "###############################################################################################"
-echo "# wget https://github.com/gitipexa/scripts/raw/main/installer/dockercontainer/mysql.sh        #"
+echo "# wget https://github.com/nlagit/scripts/raw/main/installer/dockercontainer/mysql.sh          #"
 echo "# chmod +x mysql.sh                                                                           #"
 echo "# ./mysql.sh                                                                                  #"
 echo "###############################################################################################"
-wget https://github.com/gitipexa/scripts/raw/main/installer/dockercontainer/mysql.sh
+wget https://github.com/nlagit/scripts/raw/main/installer/dockercontainer/mysql.sh
 wait -n
 chmod +x mysql.sh
 wait -n 
@@ -609,11 +610,11 @@ echo "##########################################################################
 apt updating -y
 wait -n
 echo "###############################################################################################"
-echo "# wget https://github.com/gitipexa/scripts/raw/main/installer/dockercontainer/nextcloud.sh    #"
+echo "# wget https://github.com/nlagit/scripts/raw/main/installer/dockercontainer/nextcloud.sh      #"
 echo "# chmod +x nextcloud.sh                                                                       #"
 echo "# ./nextcloud.sh                                                                              #"
 echo "###############################################################################################"
-wget https://github.com/gitipexa/scripts/raw/main/installer/dockercontainer/nextcloud.sh
+wget https://github.com/nlagit/scripts/raw/main/installer/dockercontainer/nextcloud.sh
 wait -n
 chmod +x nextcloud.sh
 wait -n 
@@ -637,11 +638,11 @@ echo "##########################################################################
 apt updating -y
 wait -n
 echo "###############################################################################################"
-echo "# wget https://github.com/gitipexa/scripts/raw/main/installer/dockercontainer/nginx.sh        #"
+echo "# wget https://github.com/nlagit/scripts/raw/main/installer/dockercontainer/nginx.sh          #"
 echo "# chmod +x nginx.sh                                                                           #"
 echo "# ./nginx.sh                                                                                  #"
 echo "###############################################################################################"
-wget https://github.com/gitipexa/scripts/raw/main/installer/dockercontainer/nginx.sh
+wget https://github.com/nlagit/scripts/raw/main/installer/dockercontainer/nginx.sh
 wait -n
 chmod +x nginx.sh
 wait -n 
@@ -665,11 +666,11 @@ echo "##########################################################################
 apt updating -y
 wait -n
 echo "###############################################################################################"
-echo "# wget https://github.com/gitipexa/scripts/raw/main/installer/dockercontainer/portainer.sh    #"
+echo "# wget https://github.com/nlagit/scripts/raw/main/installer/dockercontainer/portainer.sh      #"
 echo "# chmod +x portainer.sh                                                                       #"
 echo "# ./portainer.sh                                                                              #"
 echo "###############################################################################################"
-wget https://github.com/gitipexa/scripts/raw/main/installer/dockercontainer/portainer.sh
+wget https://github.com/nlagit/scripts/raw/main/installer/dockercontainer/portainer.sh
 wait -n
 chmod +x portainer.sh
 wait -n 
@@ -693,11 +694,11 @@ echo "##########################################################################
 apt updating -y
 wait -n
 echo "###############################################################################################"
-echo "# wget https://github.com/gitipexa/scripts/raw/main/installer/dockercontainer/uptimekuma.sh   #"
+echo "# wget https://github.com/nlagit/scripts/raw/main/installer/dockercontainer/uptimekuma.sh     #"
 echo "# chmod +x uptimekuma.sh                                                                      #"
-echo "# ./uptimekuma.sh                                                                                 #"
+echo "# ./uptimekuma.sh                                                                             #"
 echo "###############################################################################################"
-wget https://github.com/gitipexa/scripts/raw/main/installer/dockercontainer/uptimekuma.sh
+wget https://github.com/nlagit/scripts/raw/main/installer/dockercontainer/uptimekuma.sh
 wait -n
 chmod +x uptimekuma.sh
 wait -n 
@@ -721,11 +722,11 @@ echo "##########################################################################
 apt updating -y
 wait -n
 echo "###############################################################################################"
-echo "# wget https://github.com/gitipexa/scripts/raw/main/installer/dockercontainer/wordpress.sh    #"
+echo "# wget https://github.com/nlagit/scripts/raw/main/installer/dockercontainer/wordpress.sh      #"
 echo "# chmod +x wordpress.sh                                                                       #"
 echo "# ./wordpress.sh                                                                              #"
 echo "###############################################################################################"
-wget https://github.com/gitipexa/scripts/raw/main/installer/dockercontainer/wordpress.sh
+wget https://github.com/nlagit/scripts/raw/main/installer/dockercontainer/wordpress.sh
 wait -n
 chmod +x wordpress.sh
 wait -n 
@@ -749,11 +750,11 @@ echo "##########################################################################
 apt updating -y
 wait -n
 echo "###############################################################################################"
-echo "# wget https://github.com/gitipexa/scripts/raw/main/installer/dockercontainer/yacht.sh        #"
+echo "# wget https://github.com/nlagit/scripts/raw/main/installer/dockercontainer/yacht.sh          #"
 echo "# chmod +x yacht.sh                                                                           #"
 echo "# ./yacht.sh                                                                                  #"
 echo "###############################################################################################"
-wget https://github.com/gitipexa/scripts/raw/main/installer/dockercontainer/yacht.sh
+wget https://github.com/nlagit/scripts/raw/main/installer/dockercontainer/yacht.sh
 wait -n
 chmod +x yacht.sh
 wait -n 
@@ -777,11 +778,11 @@ echo "##########################################################################
 apt updating -y
 wait -n
 echo "###############################################################################################"
-echo "# wget https://github.com/gitipexa/scripts/raw/main/installer/dockercontainer/sinusbot.sh     #"
+echo "# wget https://github.com/nlagit/scripts/raw/main/installer/dockercontainer/sinusbot.sh       #"
 echo "# chmod +x sinusbot.sh                                                                        #"
 echo "# ./sinusbot.sh                                                                               #"
 echo "###############################################################################################"
-wget https://github.com/gitipexa/scripts/raw/main/installer/dockercontainer/sinusbot.sh
+wget https://github.com/nlagit/scripts/raw/main/installer/dockercontainer/sinusbot.sh
 wait -n
 chmod +x sinusbot.sh
 wait -n 
@@ -805,11 +806,11 @@ echo "##########################################################################
 apt updating -y
 wait -n
 echo "###############################################################################################"
-echo "# wget https://github.com/gitipexa/scripts/raw/main/installer/dockercontainer/dashy.sh        #"
+echo "# wget https://github.com/nlagit/scripts/raw/main/installer/dockercontainer/dashy.sh          #"
 echo "# chmod +x dashy.sh                                                                           #"
 echo "# ./dashy.sh                                                                                  #"
 echo "###############################################################################################"
-wget https://github.com/gitipexa/scripts/raw/main/installer/dockercontainer/dashy.sh
+wget https://github.com/nlagit/scripts/raw/main/installer/dockercontainer/dashy.sh
 wait -n
 chmod +x dashy.sh
 wait -n 

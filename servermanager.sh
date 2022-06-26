@@ -4,7 +4,8 @@ clear
 echo "############################################################################"
 echo "#                            Server Manager                                #"
 echo "#                              by Nico L.                                  #"
-echo "#                          Last Update: 11.06.2022                         #"
+echo "#                   https://github.com/nlagit/scripts                      #"
+echo "#                          Last Update: 26.06.2022                         #"
 echo "############################################################################"
 sleep 3
 clear 
@@ -33,7 +34,7 @@ clear
 echo "############################################################################"
 echo "#                            Server Manager                                #"
 echo "#                              by Nico L.                                  #"
-echo "#                   https://github.com/gitipexa/scripts                    #"
+echo "#                   https://github.com/nlagit/scripts                      #"
 echo "############################################################################"
 echo "#                                                                          #"
 echo "#     1 | Update Server                                                    #"

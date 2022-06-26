@@ -4,8 +4,8 @@ clear
 echo "############################################################################"
 echo "#                          Dashy Docker Installer                          #"
 echo "#                              by Nico L.                                  #"
-echo "#                   https://github.com/gitipexa/scripts                    #"
-echo "#                          Last Update: 24.06.2022                         #"
+echo "#                   https://github.com/nlagit/scripts                      #"
+echo "#                          Last Update: 26.06.2022                         #"
 echo "############################################################################"
 sleep 3
 clear 
