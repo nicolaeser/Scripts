@@ -21,7 +21,7 @@ https://github.com/nlagit/scripts/wiki
 
 
 ### Install File Getter
-`wget https://github.com/nlagit/scripts/raw/main/filegetter.sh && chmod +x filegetter.sh && ./filegetter.sh`
+```wget https://github.com/nlagit/scripts/raw/main/filegetter.sh && chmod +x filegetter.sh && ./filegetter.sh```
 
 
 ### Server Manager
