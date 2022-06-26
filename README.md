@@ -3,9 +3,9 @@ Scripts by Nico L.
 
 
 ## Contact
-[###Discord](https://discord.gg/sJyV76utga)
-[###Twitter](https://twitter.com/@nlatweet)
-[###Instagram](https://instagram.com/nla.insta)
+**[Discord](https://discord.gg/sJyV76utga)**
+**[Twitter](https://twitter.com/@nlatweet)**
+**[Instagram](https://instagram.com/nla.insta)**
 
 
 # Our Wiki
