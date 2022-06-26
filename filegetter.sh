@@ -51,14 +51,14 @@ echo "#                             Server Manager                              
 echo "############################################################################"
 sleep 1
 echo "############################################################################"
-echo "#                    Upgrading Server (apt upgrade -y)                     #"
+echo "#                    Updating Server (apt update -y)                       #"
 echo "############################################################################"
-apt upgrade -y
+apt update -y
 wait -n
 echo "############################################################################"
-echo "#                     Upgading Server (apt update -y)                      #"
+echo "#                     Upgrading Server (apt upgrade -y)                    #"
 echo "############################################################################"
-apt updating -y
+apt upgrade -y
 wait -n
 echo "############################################################################"
 echo "# wget https://github.com/nilasystem/scripts/raw/main/servermanager.sh     #"
@@ -118,14 +118,14 @@ echo "#                            Docker Direct                                
 echo "############################################################################"
 sleep 1
 echo "############################################################################"
-echo "#                    Upgrading Server (apt upgrade -y)                     #"
+echo "#                    Updating Server (apt update -y)                       #"
 echo "############################################################################"
-apt upgrade -y
+apt update -y
 wait -n
 echo "############################################################################"
-echo "#                     Upgading Server (apt update -y)                      #"
+echo "#                     Upgrading Server (apt upgrade -y)                    #"
 echo "############################################################################"
-apt updating -y
+apt upgrade -y
 wait -n
 echo "############################################################################"
 echo "# wget https://github.com/nilasystem/scripts/raw/main/installer/docker.sh  #"
@@ -146,14 +146,14 @@ echo "#                            Apache Direct                                
 echo "############################################################################"
 sleep 1
 echo "############################################################################"
-echo "#                    Upgrading Server (apt upgrade -y)                     #"
+echo "#                    Updating Server (apt update -y)                       #"
 echo "############################################################################"
-apt upgrade -y
+apt update -y
 wait -n
 echo "############################################################################"
-echo "#                     Upgading Server (apt update -y)                      #"
+echo "#                     Upgrading Server (apt upgrade -y)                    #"
 echo "############################################################################"
-apt updating -y
+apt upgrade -y
 wait -n
 echo "############################################################################"
 echo "# wget https://github.com/nilasystem/scripts/raw/main/installer/apache.sh  #"
@@ -174,14 +174,14 @@ echo "#                            Nginx Direct                                 
 echo "############################################################################"
 sleep 1
 echo "############################################################################"
-echo "#                    Upgrading Server (apt upgrade -y)                     #"
+echo "#                    Updating Server (apt update -y)                       #"
 echo "############################################################################"
-apt upgrade -y
+apt update -y
 wait -n
 echo "############################################################################"
-echo "#                     Upgading Server (apt update -y)                      #"
+echo "#                     Upgrading Server (apt upgrade -y)                    #"
 echo "############################################################################"
-apt updating -y
+apt upgrade -y
 wait -n
 echo "############################################################################"
 echo "# wget https://github.com/nilasystem/scripts/raw/main/installer/nginx.sh   #"
@@ -203,14 +203,14 @@ echo "#                            NodeJS Direct                                
 echo "############################################################################"
 sleep 1
 echo "############################################################################"
-echo "#                    Upgrading Server (apt upgrade -y)                     #"
+echo "#                    Updating Server (apt update -y)                       #"
 echo "############################################################################"
-apt upgrade -y
+apt update -y
 wait -n
 echo "############################################################################"
-echo "#                     Upgading Server (apt update -y)                      #"
+echo "#                     Upgrading Server (apt upgrade -y)                    #"
 echo "############################################################################"
-apt updating -y
+apt upgrade -y
 wait -n
 echo "############################################################################"
 echo "# wget https://github.com/nilasystem/scripts/raw/main/installer/nodejs.sh  #"
@@ -232,14 +232,14 @@ echo "#                             Git Direct                                  
 echo "############################################################################"
 sleep 1
 echo "############################################################################"
-echo "#                    Upgrading Server (apt upgrade -y)                     #"
+echo "#                    Updating Server (apt update -y)                       #"
 echo "############################################################################"
-apt upgrade -y
+apt update -y
 wait -n
 echo "############################################################################"
-echo "#                     Upgading Server (apt update -y)                      #"
+echo "#                     Upgrading Server (apt upgrade -y)                    #"
 echo "############################################################################"
-apt updating -y
+apt upgrade -y
 wait -n
 echo "############################################################################"
 echo "# wget https://github.com/nilasystem/scripts/raw/main/installer/git.sh     #"
@@ -261,14 +261,14 @@ echo "#                           MariaDB Direct                                
 echo "############################################################################"
 sleep 1
 echo "############################################################################"
-echo "#                    Upgrading Server (apt upgrade -y)                     #"
+echo "#                    Updating Server (apt update -y)                       #"
 echo "############################################################################"
-apt upgrade -y
+apt update -y
 wait -n
 echo "############################################################################"
-echo "#                     Upgading Server (apt update -y)                      #"
+echo "#                     Upgrading Server (apt upgrade -y)                    #"
 echo "############################################################################"
-apt updating -y
+apt upgrade -y
 wait -n
 echo "############################################################################"
 echo "# wget https://github.com/nilasystem/scripts/raw/main/installer/mariadb.sh #"
@@ -290,14 +290,14 @@ echo "#                             PHP Direct                                  
 echo "############################################################################"
 sleep 1
 echo "############################################################################"
-echo "#                    Upgrading Server (apt upgrade -y)                     #"
+echo "#                    Updating Server (apt update -y)                       #"
 echo "############################################################################"
-apt upgrade -y
+apt update -y
 wait -n
 echo "############################################################################"
-echo "#                     Upgading Server (apt update -y)                      #"
+echo "#                     Upgrading Server (apt upgrade -y)                    #"
 echo "############################################################################"
-apt updating -y
+apt upgrade -y
 wait -n
 echo "############################################################################"
 echo "# wget https://github.com/nilasystem/scripts/raw/main/installer/php.sh     #"
@@ -319,14 +319,14 @@ echo "#                            Python Direct                                
 echo "############################################################################"
 sleep 1
 echo "############################################################################"
-echo "#                    Upgrading Server (apt upgrade -y)                     #"
+echo "#                    Updating Server (apt update -y)                       #"
 echo "############################################################################"
-apt upgrade -y
+apt update -y
 wait -n
 echo "############################################################################"
-echo "#                     Upgading Server (apt update -y)                      #"
+echo "#                     Upgrading Server (apt upgrade -y)                    #"
 echo "############################################################################"
-apt updating -y
+apt upgrade -y
 wait -n
 echo "############################################################################"
 echo "# wget https://github.com/nilasystem/scripts/raw/main/installer/python.sh  #"
@@ -347,14 +347,14 @@ echo "#                           Keyhelp Direct                                
 echo "############################################################################"
 sleep 1
 echo "############################################################################"
-echo "#                    Upgrading Server (apt upgrade -y)                     #"
+echo "#                    Updating Server (apt update -y)                       #"
 echo "############################################################################"
-apt upgrade -y
+apt update -y
 wait -n
 echo "############################################################################"
-echo "#                     Upgading Server (apt update -y)                      #"
+echo "#                     Upgrading Server (apt upgrade -y)                    #"
 echo "############################################################################"
-apt updating -y
+apt upgrade -y
 wait -n
 echo "############################################################################"
 echo "# wget https://github.com/nilasystem/scripts/raw/main/installer/keyhelp.sh #"
@@ -375,14 +375,14 @@ echo "#                         Adguard Home Direct                             
 echo "############################################################################"
 sleep 1
 echo "############################################################################"
-echo "#                    Upgrading Server (apt upgrade -y)                     #"
+echo "#                    Updating Server (apt update -y)                       #"
 echo "############################################################################"
-apt upgrade -y
+apt update -y
 wait -n
 echo "############################################################################"
-echo "#                     Upgading Server (apt update -y)                      #"
+echo "#                     Upgrading Server (apt upgrade -y)                    #"
 echo "############################################################################"
-apt updating -y
+apt upgrade -y
 wait -n
 echo "################################################################################"
 echo "# wget https://github.com/nilasystem/scripts/raw/main/installer/adguardhome.sh #"
@@ -404,14 +404,14 @@ echo "#                           Pi Hole Direct                                
 echo "############################################################################"
 sleep 1
 echo "############################################################################"
-echo "#                    Upgrading Server (apt upgrade -y)                     #"
+echo "#                    Updating Server (apt update -y)                       #"
 echo "############################################################################"
-apt upgrade -y
+apt update -y
 wait -n
 echo "############################################################################"
-echo "#                     Upgading Server (apt update -y)                      #"
+echo "#                     Upgrading Server (apt upgrade -y)                    #"
 echo "############################################################################"
-apt updating -y
+apt upgrade -y
 wait -n
 echo "############################################################################"
 echo "# wget https://github.com/nilasystem/scripts/raw/main/installer/pihole.sh  #"
@@ -460,14 +460,14 @@ echo "#                            Apache Container                             
 echo "############################################################################"
 sleep 1
 echo "############################################################################"
-echo "#                    Upgrading Server (apt upgrade -y)                     #"
+echo "#                    Updating Server (apt update -y)                       #"
 echo "############################################################################"
-apt upgrade -y
+apt update -y
 wait -n
 echo "############################################################################"
-echo "#                     Upgading Server (apt update -y)                      #"
+echo "#                     Upgrading Server (apt upgrade -y)                    #"
 echo "############################################################################"
-apt updating -y
+apt upgrade -y
 wait -n
 echo "###############################################################################################"
 echo "# wget https://github.com/nilasystem/scripts/raw/main/installer/dockercontainer/apache.sh     #"
@@ -488,14 +488,14 @@ echo "#                            Grafana Container                            
 echo "############################################################################"
 sleep 1
 echo "############################################################################"
-echo "#                    Upgrading Server (apt upgrade -y)                     #"
+echo "#                    Updating Server (apt update -y)                       #"
 echo "############################################################################"
-apt upgrade -y
+apt update -y
 wait -n
 echo "############################################################################"
-echo "#                     Upgading Server (apt update -y)                      #"
+echo "#                     Upgrading Server (apt upgrade -y)                    #"
 echo "############################################################################"
-apt updating -y
+apt upgrade -y
 wait -n
 echo "###############################################################################################"
 echo "# wget https://github.com/nilasystem/scripts/raw/main/installer/dockercontainer/grafana.sh    #"
@@ -516,14 +516,14 @@ echo "#                           MariaDB Container                             
 echo "############################################################################"
 sleep 1
 echo "############################################################################"
-echo "#                    Upgrading Server (apt upgrade -y)                     #"
+echo "#                    Updating Server (apt update -y)                       #"
 echo "############################################################################"
-apt upgrade -y
+apt update -y
 wait -n
 echo "############################################################################"
-echo "#                     Upgading Server (apt update -y)                      #"
+echo "#                     Upgrading Server (apt upgrade -y)                    #"
 echo "############################################################################"
-apt updating -y
+apt upgrade -y
 wait -n
 echo "###############################################################################################"
 echo "# wget https://github.com/nilasystem/scripts/raw/main/installer/dockercontainer/mariadb.sh    #"
@@ -544,14 +544,14 @@ echo "#                           MongoDB Container                             
 echo "############################################################################"
 sleep 1
 echo "############################################################################"
-echo "#                    Upgrading Server (apt upgrade -y)                     #"
+echo "#                    Updating Server (apt update -y)                       #"
 echo "############################################################################"
-apt upgrade -y
+apt update -y
 wait -n
 echo "############################################################################"
-echo "#                     Upgading Server (apt update -y)                      #"
+echo "#                     Upgrading Server (apt upgrade -y)                    #"
 echo "############################################################################"
-apt updating -y
+apt upgrade -y
 wait -n
 echo "###############################################################################################"
 echo "# wget https://github.com/nilasystem/scripts/raw/main/installer/dockercontainer/mongodb.sh    #"
@@ -572,14 +572,14 @@ echo "#                            MySQL Container                              
 echo "############################################################################"
 sleep 1
 echo "############################################################################"
-echo "#                    Upgrading Server (apt upgrade -y)                     #"
+echo "#                    Updating Server (apt update -y)                       #"
 echo "############################################################################"
-apt upgrade -y
+apt update -y
 wait -n
 echo "############################################################################"
-echo "#                     Upgading Server (apt update -y)                      #"
+echo "#                     Upgrading Server (apt upgrade -y)                    #"
 echo "############################################################################"
-apt updating -y
+apt upgrade -y
 wait -n
 echo "###############################################################################################"
 echo "# wget https://github.com/nilasystem/scripts/raw/main/installer/dockercontainer/mysql.sh      #"
@@ -600,14 +600,14 @@ echo "#                            Nextcloud Container                          
 echo "############################################################################"
 sleep 1
 echo "############################################################################"
-echo "#                    Upgrading Server (apt upgrade -y)                     #"
+echo "#                    Updating Server (apt update -y)                       #"
 echo "############################################################################"
-apt upgrade -y
+apt update -y
 wait -n
 echo "############################################################################"
-echo "#                     Upgading Server (apt update -y)                      #"
+echo "#                     Upgrading Server (apt upgrade -y)                    #"
 echo "############################################################################"
-apt updating -y
+apt upgrade -y
 wait -n
 echo "###############################################################################################"
 echo "# wget https://github.com/nilasystem/scripts/raw/main/installer/dockercontainer/nextcloud.sh  #"
@@ -628,14 +628,14 @@ echo "#                            Nginx Container                              
 echo "############################################################################"
 sleep 1
 echo "############################################################################"
-echo "#                    Upgrading Server (apt upgrade -y)                     #"
+echo "#                    Updating Server (apt update -y)                       #"
 echo "############################################################################"
-apt upgrade -y
+apt update -y
 wait -n
 echo "############################################################################"
-echo "#                     Upgading Server (apt update -y)                      #"
+echo "#                     Upgrading Server (apt upgrade -y)                    #"
 echo "############################################################################"
-apt updating -y
+apt upgrade -y
 wait -n
 echo "###############################################################################################"
 echo "# wget https://github.com/nilasystem/scripts/raw/main/installer/dockercontainer/nginx.sh      #"
@@ -656,14 +656,14 @@ echo "#                         Portainer Container                             
 echo "############################################################################"
 sleep 1
 echo "############################################################################"
-echo "#                    Upgrading Server (apt upgrade -y)                     #"
+echo "#                    Updating Server (apt update -y)                       #"
 echo "############################################################################"
-apt upgrade -y
+apt update -y
 wait -n
 echo "############################################################################"
-echo "#                     Upgading Server (apt update -y)                      #"
+echo "#                     Upgrading Server (apt upgrade -y)                    #"
 echo "############################################################################"
-apt updating -y
+apt upgrade -y
 wait -n
 echo "###############################################################################################"
 echo "# wget https://github.com/nilasystem/scripts/raw/main/installer/dockercontainer/portainer.sh  #"
@@ -684,14 +684,14 @@ echo "#                        Uptimekuma Container                             
 echo "############################################################################"
 sleep 1
 echo "############################################################################"
-echo "#                    Upgrading Server (apt upgrade -y)                     #"
+echo "#                    Updating Server (apt update -y)                       #"
 echo "############################################################################"
-apt upgrade -y
+apt update -y
 wait -n
 echo "############################################################################"
-echo "#                     Upgading Server (apt update -y)                      #"
+echo "#                     Upgrading Server (apt upgrade -y)                    #"
 echo "############################################################################"
-apt updating -y
+apt upgrade -y
 wait -n
 echo "###############################################################################################"
 echo "# wget https://github.com/nilasystem/scripts/raw/main/installer/dockercontainer/uptimekuma.sh     #"
@@ -712,14 +712,14 @@ echo "#                         Wordpress Container                             
 echo "############################################################################"
 sleep 1
 echo "############################################################################"
-echo "#                    Upgrading Server (apt upgrade -y)                     #"
+echo "#                    Updating Server (apt update -y)                       #"
 echo "############################################################################"
-apt upgrade -y
+apt update -y
 wait -n
 echo "############################################################################"
-echo "#                     Upgading Server (apt update -y)                      #"
+echo "#                     Upgrading Server (apt upgrade -y)                    #"
 echo "############################################################################"
-apt updating -y
+apt upgrade -y
 wait -n
 echo "###############################################################################################"
 echo "# wget https://github.com/nilasystem/scripts/raw/main/installer/dockercontainer/wordpress.sh  #"
@@ -740,14 +740,14 @@ echo "#                            Yacht Container                              
 echo "############################################################################"
 sleep 1
 echo "############################################################################"
-echo "#                    Upgrading Server (apt upgrade -y)                     #"
+echo "#                    Updating Server (apt update -y)                       #"
 echo "############################################################################"
-apt upgrade -y
+apt update -y
 wait -n
 echo "############################################################################"
-echo "#                     Upgading Server (apt update -y)                      #"
+echo "#                     Upgrading Server (apt upgrade -y)                    #"
 echo "############################################################################"
-apt updating -y
+apt upgrade -y
 wait -n
 echo "###############################################################################################"
 echo "# wget https://github.com/nilasystem/scripts/raw/main/installer/dockercontainer/yacht.sh      #"
@@ -768,14 +768,14 @@ echo "#                         Sinusbot Container                              
 echo "############################################################################"
 sleep 1
 echo "############################################################################"
-echo "#                    Upgrading Server (apt upgrade -y)                     #"
+echo "#                    Updating Server (apt update -y)                       #"
 echo "############################################################################"
-apt upgrade -y
+apt update -y
 wait -n
 echo "############################################################################"
-echo "#                     Upgading Server (apt update -y)                      #"
+echo "#                     Upgrading Server (apt upgrade -y)                    #"
 echo "############################################################################"
-apt updating -y
+apt upgrade -y
 wait -n
 echo "###############################################################################################"
 echo "# wget https://github.com/nilasystem/scripts/raw/main/installer/dockercontainer/sinusbot.sh   #"
@@ -796,14 +796,14 @@ echo "#                           Dashy Container                               
 echo "############################################################################"
 sleep 1
 echo "############################################################################"
-echo "#                    Upgrading Server (apt upgrade -y)                     #"
+echo "#                    Updating Server (apt update -y)                       #"
 echo "############################################################################"
-apt upgrade -y
+apt update -y
 wait -n
 echo "############################################################################"
-echo "#                     Upgading Server (apt update -y)                      #"
+echo "#                     Upgrading Server (apt upgrade -y)                    #"
 echo "############################################################################"
-apt updating -y
+apt upgrade -y
 wait -n
 echo "###############################################################################################"
 echo "# wget https://github.com/nilasystem/scripts/raw/main/installer/dockercontainer/dashy.sh      #"
