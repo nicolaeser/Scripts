@@ -4,13 +4,13 @@ Scripts by Nico L.
 
 ## Contact
 **[Discord](https://discord.gg/sJyV76utga)**
-**[Twitter](https://twitter.com/@nlatweet)**
+**[Twitter](https://twitter.com/@nilasystemtweet)**
 **[Instagram](https://instagram.com/nla.insta)**
 
 
 # Our Wiki
 > You can open our Wiki here:
-https://github.com/nlagit/scripts/wiki
+https://github.com/nilasystem/scripts/wiki
 
 
 ## File Getter
@@ -22,136 +22,136 @@ https://github.com/nlagit/scripts/wiki
 
 ### Install File Getter
 ```
-wget https://github.com/nlagit/scripts/raw/main/filegetter.sh && chmod +x filegetter.sh && ./filegetter.sh
+wget https://github.com/nilasystem/scripts/raw/main/filegetter.sh && chmod +x filegetter.sh && ./filegetter.sh
 ```
 
 
 ### Server Manager
 ```
-wget https://github.com/nlagit/scripts/raw/main/servermanager.sh && chmod +x servermanager.sh && ./servermanager.sh
+wget https://github.com/nilasystem/scripts/raw/main/servermanager.sh && chmod +x servermanager.sh && ./servermanager.sh
 ```
 
 ### Server Installer
 
 #### Docker
 ```
-wget https://github.com/nlagit/scripts/raw/main/installer/docker.sh && chmod +x docker.sh && ./docker.sh
+wget https://github.com/nilasystem/scripts/raw/main/installer/docker.sh && chmod +x docker.sh && ./docker.sh
 ```
 
 #### NodeJS
 ```
-wget https://github.com/nlagit/scripts/raw/main/installer/nodejs.sh && chmod +x nodejs.sh && ./nodejs.sh
+wget https://github.com/nilasystem/scripts/raw/main/installer/nodejs.sh && chmod +x nodejs.sh && ./nodejs.sh
 ```
 
 #### Ngnix
 ```
-wget https://github.com/nlagit/scripts/raw/main/installer/nginx.sh && chmod +x ngnix.sh && ./ngnix.sh
+wget https://github.com/nilasystem/scripts/raw/main/installer/nginx.sh && chmod +x ngnix.sh && ./ngnix.sh
 ```
 
 #### Apache
 ```
-wget https://github.com/nlagit/scripts/raw/main/installer/apache.sh && chmod +x apache.sh && ./apache.sh
+wget https://github.com/nilasystem/scripts/raw/main/installer/apache.sh && chmod +x apache.sh && ./apache.sh
 ```
 
 #### MariaDB
 ```
-wget https://github.com/nlagit/scripts/raw/main/installer/mariadb.sh && chmod +x mariadb.sh && ./mariadb.sh
+wget https://github.com/nilasystem/scripts/raw/main/installer/mariadb.sh && chmod +x mariadb.sh && ./mariadb.sh
 ```
 
 #### PHP
 ```
-wget https://github.com/nlagit/scripts/raw/main/installer/php.sh && chmod +x php.sh && ./php.sh
+wget https://github.com/nilasystem/scripts/raw/main/installer/php.sh && chmod +x php.sh && ./php.sh
 ```
 
 #### Python
 ```
-wget https://github.com/nlagit/scripts/raw/main/installer/python.sh && chmod +x python.sh && ./python.sh
+wget https://github.com/nilasystem/scripts/raw/main/installer/python.sh && chmod +x python.sh && ./python.sh
 ```
 
 #### Git
 ```
-wget https://github.com/nlagit/scripts/raw/main/installer/git.sh && chmod +x git.sh && ./git.sh
+wget https://github.com/nilasystem/scripts/raw/main/installer/git.sh && chmod +x git.sh && ./git.sh
 ```
 
 #### Keyhelp
 ```
-wget https://github.com/nlagit/scripts/raw/main/installer/keyhelp.sh && chmod +x keyhelp.sh && ./keyhelp.sh
+wget https://github.com/nilasystem/scripts/raw/main/installer/keyhelp.sh && chmod +x keyhelp.sh && ./keyhelp.sh
 ```
 
 #### Adguard Home
 ```
-wget https://github.com/nlagit/scripts/raw/main/installer/adguardhome.sh && chmod +x adguardhome.sh && ./adguardhome.sh
+wget https://github.com/nilasystem/scripts/raw/main/installer/adguardhome.sh && chmod +x adguardhome.sh && ./adguardhome.sh
 ```
 
 #### Pi Hole
 ```
-wget https://github.com/nlagit/scripts/raw/main/installer/pihole.sh && chmod +x pihole.sh && ./pihole.sh
+wget https://github.com/nilasystem/scripts/raw/main/installer/pihole.sh && chmod +x pihole.sh && ./pihole.sh
 ```
 
 ### Docker Container
 
 #### Portainer
 ```
-wget https://github.com/nlagit/scripts/raw/main/installer/dockercontainer/portainer.sh && chmod +x portainer.sh && ./portainer.sh
+wget https://github.com/nilasystem/scripts/raw/main/installer/dockercontainer/portainer.sh && chmod +x portainer.sh && ./portainer.sh
 ```
 
 #### Yacht
 ```
-wget https://github.com/nlagit/scripts/raw/main/installer/dockercontainer/yacht.sh && chmod +x yacht.sh && ./yacht.sh
+wget https://github.com/nilasystem/scripts/raw/main/installer/dockercontainer/yacht.sh && chmod +x yacht.sh && ./yacht.sh
 ```
 
 #### Grafana
 ```
-wget https://github.com/nlagit/scripts/raw/main/installer/dockercontainer/grafana.sh && chmod +x grafana.sh && ./grafana.sh
+wget https://github.com/nilasystem/scripts/raw/main/installer/dockercontainer/grafana.sh && chmod +x grafana.sh && ./grafana.sh
 ```
 
 #### Nextcloud
 ```
-wget https://github.com/nlagit/scripts/raw/main/installer/dockercontainer/nextcloud.sh && chmod +x nextcloud.sh && ./nextcloud.sh
+wget https://github.com/nilasystem/scripts/raw/main/installer/dockercontainer/nextcloud.sh && chmod +x nextcloud.sh && ./nextcloud.sh
 ```
 
 #### Uptimekuma
 ```
-wget https://github.com/nlagit/scripts/raw/main/installer/dockercontainer/uptimekuma.sh && chmod +x uptimekuma.sh && ./uptimekuma.sh
+wget https://github.com/nilasystem/scripts/raw/main/installer/dockercontainer/uptimekuma.sh && chmod +x uptimekuma.sh && ./uptimekuma.sh
 ```
 
 #### Wordpress
 ```
-wget https://github.com/nlagit/scripts/blob/main/installer/dockercontainer/wordpress.sh && chmod +x wordpress.sh && ./wordpress.sh
+wget https://github.com/nilasystem/scripts/blob/main/installer/dockercontainer/wordpress.sh && chmod +x wordpress.sh && ./wordpress.sh
 ```
 
 #### Ngnix
 ```
-wget https://github.com/nlagit/scripts/raw/main/installer/dockercontainer/nginx.sh && chmod +x ngnix.sh && ./ngnix.sh
+wget https://github.com/nilasystem/scripts/raw/main/installer/dockercontainer/nginx.sh && chmod +x ngnix.sh && ./ngnix.sh
 ```
 
 #### Apache
 ```
-wget https://github.com/nlagit/scripts/raw/main/installer/dockercontainer/apache.sh && chmod +x apache.sh && ./apache.sh
+wget https://github.com/nilasystem/scripts/raw/main/installer/dockercontainer/apache.sh && chmod +x apache.sh && ./apache.sh
 ```
 
 #### MariaDB
 ```
-wget https://github.com/nlagit/scripts/raw/main/installer/dockercontainer/mariadb.sh && chmod +x mariadb.sh && ./mariadb.sh
+wget https://github.com/nilasystem/scripts/raw/main/installer/dockercontainer/mariadb.sh && chmod +x mariadb.sh && ./mariadb.sh
 ```
 
 #### MySQL
 ```
-wget https://github.com/nlagit/scripts/raw/main/installer/dockercontainer/mysql.sh && chmod +x mysql.sh && ./mysql.sh
+wget https://github.com/nilasystem/scripts/raw/main/installer/dockercontainer/mysql.sh && chmod +x mysql.sh && ./mysql.sh
 ```
 
 #### MongoDB
 ```
-wget https://github.com/nlagit/scripts/raw/main/installer/dockercontainer/mongodb.sh && chmod +x mongodb.sh && ./mongodb.sh
+wget https://github.com/nilasystem/scripts/raw/main/installer/dockercontainer/mongodb.sh && chmod +x mongodb.sh && ./mongodb.sh
 ```
 
 #### Sinusbot
 ```
-wget https://github.com/nlagit/scripts/raw/main/installer/dockercontainer/sinusbot.sh && chmod +x sinusbot.sh && ./sinusbot.sh
+wget https://github.com/nilasystem/scripts/raw/main/installer/dockercontainer/sinusbot.sh && chmod +x sinusbot.sh && ./sinusbot.sh
 ```
 
 #### Dashy
 ```
-wget https://github.com/nlagit/scripts/raw/main/installer/dockercontainer/dashy.sh && chmod +x dashy.sh && ./dashy.sh
+wget https://github.com/nilasystem/scripts/raw/main/installer/dockercontainer/dashy.sh && chmod +x dashy.sh && ./dashy.sh
 ```
 
