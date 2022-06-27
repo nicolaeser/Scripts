@@ -34,7 +34,7 @@ clear
 echo "############################################################################"
 echo "#                              Installer                                   #"
 echo "#                              by Nico L.                                  #"
-echo "#                   https://github.com/gitipexa/scripts                    #"
+echo "#                   https://github.com/nilasystem/scripts                  #"
 echo "############################################################################"
 echo "#                                                                          #"
 echo "#     1 | Docker Installation                                              #"
