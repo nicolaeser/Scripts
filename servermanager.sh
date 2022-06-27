@@ -157,7 +157,7 @@ echo "#                             in 1 Second                                 
 echo "############################################################################"
 sleep 1
 clear
-systemctl poweroff
+shutdown now
 fi
 # Shutdown Server
 if [ "$managenumber" = "7" ]; then
@@ -222,5 +222,5 @@ echo "#                             in 1 Second                                 
 echo "############################################################################"
 sleep 1
 clear
-systemctl poweroff
+reboot now
 fi
