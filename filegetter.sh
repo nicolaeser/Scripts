@@ -333,7 +333,7 @@ echo "# wget https://github.com/nilasystem/scripts/raw/main/installer/python.sh 
 echo "# chmod +x python.sh                                                       #"
 echo "# ./docker.sh                                                              #"
 echo "############################################################################"
-wget https://github.com/nilasystem/scripts/raw/main/installer/docker.sh
+wget https://github.com/nilasystem/scripts/raw/main/installer/python.sh
 wait -n
 chmod +x python.sh
 wait -n 
