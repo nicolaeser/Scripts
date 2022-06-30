@@ -62,9 +62,15 @@ echo "##########################################################################
 apt upgrade -y
 wait -n 
 echo "############################################################################"
+echo "#                         Installing NodeJS                                #"
+echo "# curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -   #"
+echo "############################################################################"
+curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
+wait -n
+echo "############################################################################"
 echo "#                 NodeJS Installation (apt install nodejs -y)              #"
 echo "############################################################################"
-apt install nodejs -y
+sudo apt install nodejs -y
 wait -n
 echo "############################################################################"
 echo "#                    NPM Installation (apt install npm -y)                 #"
@@ -95,10 +101,16 @@ echo "##########################################################################
 apt upgrade -y
 wait -n
 echo "############################################################################"
+echo "#                         Installing NodeJS                                #"
+echo "# curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -   #"
+echo "############################################################################"
+curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
+wait -n
+echo "############################################################################"
 echo "#                 NodeJS Installation (apt install nodejs -y)              #"
 echo "############################################################################"
 apt install nodejs -y
-wait -n 
+wait -n
 echo "############################################################################"
 echo "#                 NPM Installation (apt install npm -y)                    #"
 echo "############################################################################"
@@ -131,6 +143,12 @@ echo "#                      Server Upgrade (apt upgrade -y)                    
 echo "############################################################################"
 apt upgrade -y
 wait -n 
+echo "############################################################################"
+echo "#                         Installing NodeJS                                #"
+echo "# curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -   #"
+echo "############################################################################"
+curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
+wait -n
 echo "############################################################################"
 echo "#                 NodeJS Installation (apt install nodejs -y)              #"
 echo "############################################################################"
