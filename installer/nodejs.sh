@@ -63,9 +63,9 @@ apt upgrade -y
 wait -n 
 echo "############################################################################"
 echo "#                         Installing NodeJS                                #"
-echo "# curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -   #"
+echo "# curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -        #"
 echo "############################################################################"
-curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
+curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 wait -n
 echo "############################################################################"
 echo "#                 NodeJS Installation (apt install nodejs -y)              #"
@@ -102,9 +102,9 @@ apt upgrade -y
 wait -n
 echo "############################################################################"
 echo "#                         Installing NodeJS                                #"
-echo "# curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -   #"
+echo "# curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -        #"
 echo "############################################################################"
-curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
+curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 wait -n
 echo "############################################################################"
 echo "#                 NodeJS Installation (apt install nodejs -y)              #"
@@ -145,9 +145,9 @@ apt upgrade -y
 wait -n 
 echo "############################################################################"
 echo "#                         Installing NodeJS                                #"
-echo "# curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -   #"
+echo "# curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -        #"
 echo "############################################################################"
-curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
+curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 wait -n
 echo "############################################################################"
 echo "#                 NodeJS Installation (apt install nodejs -y)              #"
