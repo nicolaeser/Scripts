@@ -70,7 +70,7 @@ wait -n
 echo "############################################################################"
 echo "#                 NodeJS Installation (apt install nodejs -y)              #"
 echo "############################################################################"
-sudo apt install nodejs -y
+apt install nodejs -y
 wait -n
 echo "############################################################################"
 echo "#                    NPM Installation (apt install npm -y)                 #"
