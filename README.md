@@ -1,6 +1,5 @@
 # Scripts
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?lines=Hi+there+%F0%9F%91%8B!;Nilasystem+by+Nico+L.;Scripts%3A;Server+Manager;Installer;Docker+Container;and+much+more!;Made+with+%E2%9D%A4)](https://git.io/typing-svg)
-
+Scripts by Nico L.
 
 ## Contact
 **[Discord](https://discord.gg/sJyV76utga)**
