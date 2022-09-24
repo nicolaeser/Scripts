@@ -12,23 +12,6 @@ Scripts by Nico L.
 https://github.com/nilasystem/scripts/wiki
 
 
-## File Getter
-**You can download the Files with the commands or with our NEW File Getter.**
-
-
-
-
-
-### Install File Getter
-```
-wget https://github.com/nilasystem/scripts/raw/main/filegetter.sh && chmod +x filegetter.sh && ./filegetter.sh
-```
-
-
-### Server Manager
-```
-wget https://github.com/nilasystem/scripts/raw/main/servermanager.sh && chmod +x servermanager.sh && ./servermanager.sh
-```
 
 ### Server Installer
 
