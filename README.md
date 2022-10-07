@@ -20,6 +20,11 @@ https://github.com/nilasystem/scripts/wiki
 wget https://github.com/nilasystem/scripts/raw/main/installer/docker.sh && chmod +x docker.sh && ./docker.sh
 ```
 
+#### PhpMyAdmin
+```
+wget https://github.com/nilasystem/scripts/raw/main/installer/phpmyadmin.sh && chmod +x phpmyadmin.sh && ./phpmyadmin.sh
+```
+
 #### NodeJS
 ```
 wget https://github.com/nilasystem/scripts/raw/main/installer/nodejs.sh && chmod +x nodejs.sh && ./nodejs.sh
