@@ -4,7 +4,7 @@ clear
 echo "############################################################################"
 echo "#                          Keyhelp Installer                               #"
 echo "#                             by Nico L.                                   #"
-echo "#                   https://github.com/nilasystem/scripts                  #"
+echo "#                   https://github.com/ipexadev/scripts                    #"
 echo "#                          Last Update: 27.06.2022                         #"
 echo "############################################################################"
 sleep 3
